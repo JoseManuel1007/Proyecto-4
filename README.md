@@ -1,4 +1,4 @@
-# Proyecto: Uso de Roboflow y Herramientas de Visión por Computador
+# Proyecto: Procesamiento de Imágenes para la Detección de Arcos Eléctricos en Sistemas de Potencia
 
 Este repositorio contiene código que utiliza **Roboflow**, **Pillow**, **OpenCV** y **Matplotlib** para cargar, procesar y visualizar imágenes. También incluye instrucciones para ejecutarlo en **Google Colab**.
 
