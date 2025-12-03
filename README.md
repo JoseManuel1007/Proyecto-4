@@ -1,5 +1,5 @@
 # Proyecto: Uso de Roboflow y Herramientas de Visión por Computador
-Este repositorio contiene código que utiliza Roboflow, Pillow, OpenCV y Matplotlib para cargar, procesar y visualizar imágenes. También incluye instrucciones para ejecutarlo en Google Colab.
+Este repositorio contiene código que utiliza Roboflow, Pillow, OpenCV y Matplotlib para cargar, procesar y visualizar imágenes. También incluye instrucciones para ejecutarlo en Google Colab. En el repositorio se encuentran los archivos: Proyecto_4.ipynb, Procesamiento_de_Imágenes_para_Sistemas_de_Energía_Eléctrica.pdf y Procesamiento-de-Imagenes-para-Sistemas-de-Energia-Electrica.pptx. Para ejecutar el código correctamente, se debe importar la imagen en la celda 3 del notebook Proyecto_4.ipynb.
 
 ## Requisitos
 - Python 3.8 o superior
@@ -10,10 +10,10 @@ Ejecuta en tu terminal o en Google Colab:
 pip install roboflow pillow opencv-python matplotlib
 
 ## Importación de Librerías
-from roboflow import Roboflow
-from PIL import Image
-from google.colab import files
-import cv2
+from roboflow import Roboflow  
+from PIL import Image  
+from google.colab import files  
+import cv2  
 import matplotlib.pyplot as plt
 
 ## Ejemplo: Cargar y Mostrar una Imagen
@@ -43,22 +43,21 @@ print(resultado)
 ## Subir Archivos en Google Colab
 uploaded = files.upload()
 
+## Archivos incluidos en el repositorio
+- Proyecto_4.ipynb  
+- Procesamiento_de_Imágenes_para_Sistemas_de_Energía_Eléctrica.pdf  
+- Procesamiento-de-Imagenes-para-Sistemas-de-Energia-Electrica.pptx
+
 ## Estructura Sugerida del Proyecto
 /
-├─ README.md
-├─ requirements.txt
-├─ src/
-│  └─ main.py
-├─ notebooks/
-│  └─ demo_colab.ipynb
-└─ images/
-   └─ ejemplo.jpg
+├─ README.md  
+├─ requirements.txt  
+├─ Proyecto_4.ipynb  
+├─ Procesamiento_de_Imágenes_para_Sistemas_de_Energía_Eléctrica.pdf  
+└─ Procesamiento-de-Imagenes-para-Sistemas-de-Energia-Electrica.pptx
 
 ## requirements.txt
-roboflow
-pillow
-opencv-python
+roboflow  
+pillow  
+opencv-python  
 matplotlib
-
-## Licencia
-Incluye aquí la licencia que prefieras para tu proyecto.
