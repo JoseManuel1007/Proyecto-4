@@ -35,5 +35,13 @@ Para que funcione correctamente, es necesario subir una imagen para la detecció
 - `Proyecto_4.ipynb`  
 - `Procesamiento_de_Imágenes_para_Sistemas_de_Energía_Eléctrica.pdf`  
 
+---
+
+## Autores
+
+- **Jose Manuel Criollo Chapal**  
+- **Kevin Andrés Álvarez Orozco**
+- **Juan Diego Betancourt Monsalve**
+
 
 
